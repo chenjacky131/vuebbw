@@ -1,0 +1,7 @@
+body {
+  font-size: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+@function p2r($px){
+  @return $px/100 + rem
+}
